@@ -4,11 +4,10 @@ Explicit & Implicit FDM(유한차분법)
 
 > 실행 환경 MATLAB R2018a  
 
-> Explicit FDM과 Implict FDM의 **Price**와 **V(S,t)**를 구하는 함수 Final을 구현
->  - Price : Option value
->  - V(S,t) : Option value at time t and stock price S
+- Explicit FDM과 Implict FDM의 **Price** 와 **V(S,t)** 를 구하는 함수 Final을 구현
+  - Price : Option value
+  - V(S,t) : Option value at time t and stock price S
 
---------------
 - Final 함수 파라미터  
   Final(C_P, Method, S, X, r, T, vol, Smax, M, N)
   - C_P : 'C' or 'P' (European Call option or Put option)
